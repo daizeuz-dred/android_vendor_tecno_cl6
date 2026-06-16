@@ -1967,6 +1967,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "audio.primary.mediatek",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
